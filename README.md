@@ -38,7 +38,7 @@ python query.py
 
 ## To create a search index on the stored embeddings
 
-![Index the vector embeddings](https://www.mongodb.com/developer/languages/python/semantic-search-made-easy-langchain-mongodb/?utm_campaign=devrel&utm_source=youtube&utm_medium=organic_social&utm_content=ZvwUzcMvKiI&utm_term=jay.javed)
+[Index the vector embeddings](https://www.mongodb.com/developer/languages/python/semantic-search-made-easy-langchain-mongodb/?utm_campaign=devrel&utm_source=youtube&utm_medium=organic_social&utm_content=ZvwUzcMvKiI&utm_term=jay.javed)
 
 ## Usage
 
