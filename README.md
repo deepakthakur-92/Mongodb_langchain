@@ -7,20 +7,25 @@ This repository provides an example of integrating LangChain with MongoDB Atlas 
 
 ```
 git clone https://github.com/your_username/your_repository.git
-cd your_repository
 ```
 
 ### Create a virtual environment:
 
 ```
-conda create -n cpullama python=3.8 -y
-conda activate cpullama
+conda create -n venv python=3.8 -y
+conda activate venv
 ```
 
 ### Install requirements:
 
 ```
 pip install -r requirements.txt
+```
+
+### Load, transform, embed and store
+
+```
+python vectorize.py
 ```
 
 ### Querying the Database
@@ -30,6 +35,10 @@ To query the database for similar documents, run the following command:
 ```
 python query.py
 ```
+
+## To create a search index on the stored embeddings
+
+![Index the vector embeddings](https://www.mongodb.com/developer/languages/python/semantic-search-made-easy-langchain-mongodb/?utm_campaign=devrel&utm_source=youtube&utm_medium=organic_social&utm_content=ZvwUzcMvKiI&utm_term=jay.javed)
 
 ## Usage
 
