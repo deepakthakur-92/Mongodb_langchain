@@ -51,3 +51,7 @@ This code demonstrates the process of loading documents, splitting them into chu
 3. **Embedding**: The text chunks are embedded using OpenAI's embedding model.
 
 4. **Store in MongoDB Atlas**: The embedded chunks are stored in a MongoDB Atlas database for efficient similarity search.
+
+5. **Index the Vector Embeddings**: After storing the embeddings in MongoDB Atlas, index the vector embeddings for efficient retrieval. [Atlas Document](https://www.mongodb.com/developer/languages/python/semantic-search-made-easy-langchain-mongodb/?utm_campaign=devrel&utm_source=youtube&utm_medium=organic_social&utm_content=ZvwUzcMvKiI&utm_term=jay.javed)
+
+6. **Retrieve**: Retrieve documents based on similarity search.
